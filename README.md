@@ -7,7 +7,7 @@ The objective is to predict brain stroke from patient's records such as age, bmi
 • Different data imputation techniques are applied to process the missing data.<br/>
 • Edited Nearest Neighbours under-sampling technique is used on the majority class (non-stroke patient) and SMOTE over sampling technique is used on the minority class (stroke-patient).<br/>
 • Bagging (i.e., Random Forest) and Boosting approach (i.e., Gradient Boosting Tree) are applied on the processed data. <br/>
-• The best performance is achieved using the bagging approach with AUC = 0.8.<br/>
+• Without sampling AUC=0.5. After applying sampling techniques, the best performance is achieved using the bagging approach with AUC = 0.8.<br/>
 
 ## Data
 The dataset is collected from the following link: 
